@@ -1,0 +1,62 @@
+/* colors are at https://www.canva.com/colors/color-palettes/rocks-and-barefoot/ */
+
+* { font-family: courier; }
+
+h1 {
+    text-shadow: 2px 2px #c0b4ac;
+  }
+
+h1, h2, h3, ol, ul, p {
+    color: #647C90;
+}
+
+p, ul, ol {
+    font-size: 14px;
+    padding-top: 3px;
+}
+
+a {
+    color: #647C90;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4e6374;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 25px;
+    border: 2px solid black;
+    box-shadow: 0 0 3px 3px #c0b4ac;
+}
+
+.recipecard {
+    height: 300px;
+    width: auto;
+}
+
+div {
+    width: 750px;
+    background-color: #DCD2CC;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.bgbox {
+    width: 750px;
+    
+    background-color: #EDE7DC;
+    text-align: center;
+    border-radius: 25px;
+    padding-bottom: 30px;
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+
+  ol {
+      text-align: left;
+  }
